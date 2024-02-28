@@ -11,7 +11,6 @@ const RandomImage = () => {
 
   // Obtén una imagen aleatoria del array
   const randomImage = images[Math.floor(Math.random() * images.length)];
-  console.log(randomImage.default);
 
   return (
     <div>
